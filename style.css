@@ -1,0 +1,67 @@
+/* Custom scrollbar styles */
+body::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: #E4EEEB; /* Color of the track */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color of the scroll thumb */
+    border-radius: 6px; /* Rounded corners of the thumb */
+    border: 3px solid #f1f1f1; /* Border around the thumb */
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Color of the scroll thumb on hover */
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #E4EEEB;
+}
+
+#home {
+    background: url('./images/background2.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.custom-navbar-color {
+    background-color: #1F2544;
+}
+
+.bg-custom-color {
+    background-color: #1F2544;
+}
+
+.nav-link{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-weight: 600;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.5) !important;
+}
+
+.hero-content h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+}
+
+footer p {
+    margin: 0;
+}
